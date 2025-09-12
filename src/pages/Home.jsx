@@ -15,7 +15,7 @@ function Home() {
 
                     <div className="mb-12 flex justify-start w-full relative">
                         <div className="w-1/2 pr-8 text-right">
-                            <h3 className="text-white text-xl font-semibold">Project 1</h3>
+                            <h3 className="text-white text-xl font-semibold">French Baccalauréat, with Honors (Mention Bien)</h3>
                             <p className="text-gray-300">DETAILS</p>
                         </div>
                         <div className="absolute left-1/2 transform -translate-x-1/2 bg-white w-4 h-4 rounded-full border border-gray-500"></div>
