@@ -8,7 +8,7 @@ function Navbar() {
                 <li>
                     <Link 
                         to="/" 
-                        className="block px-3 py-1 rounded-full bg-gray-800 text-center hover:bg-gray-700"
+                        className="block px-3 py-1 rounded-full bg-[#827CA6] text-center hover:bg-gray-700"
                         
                     >
                         Home
@@ -17,7 +17,7 @@ function Navbar() {
                 <li>
                     <Link 
                         to="/projects" 
-                        className="block px-3 py-1 rounded-full bg-gray-800 text-center hover:bg-gray-700"
+                        className="block px-3 py-1 rounded-full bg-[#827CA6] text-center hover:bg-gray-700"
                     >
                         Projects
                     </Link>
@@ -25,7 +25,7 @@ function Navbar() {
                 <li>
                     <Link 
                         to="/about" 
-                        className="block px-3 py-1 rounded-full bg-gray-800 text-center hover:bg-gray-700"
+                        className="block px-3 py-1 rounded-full bg-[#827CA6] text-center hover:bg-gray-700"
                     >
                         About
                     </Link>

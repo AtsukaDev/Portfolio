@@ -2,48 +2,15 @@ import "../App.css";
 
 function Home() {
     return (
-        <div>
-            <div className="bg-[#10101a]  p-4 rounded border-white border-2">
-
+        <div className="flex w-1/2 m-2 bg-[#f5f5f5]">
+            <div className="bg-[#e0e0e0] rounded-xl p-6 w-fit shadow-md">
+                <h1 className="font-bold text-xl mb-2">About Me</h1>
+                <p>
+                    Hi! I'm a 19-year-old IT student from Caen, France. I started exploring development during the covid, and since then, I've been passionate about all the things you can do with only a few code lines. For me, discovering the world of coding has been like opening a door to a magical universe of possibilities.
+                </p>
             </div>
-
-            <section className="max-w-4xl mx-auto mt-16 relative">
-                <h2 className="text-white text-3xl font-bold text-center mb-12">My Journey</h2>
-
-                <div className="relative">
-                    <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-500"></div>
-
-                    <div className="mb-12 flex justify-start w-full relative">
-                        <div className="w-1/2 pr-8 text-right">
-                            <h3 className="text-white text-xl font-semibold">French Baccalauréat, with Honors (Mention Bien)</h3>
-                            <p className="text-gray-300">DETAILS</p>
-                        </div>
-                        <div className="absolute left-1/2 transform -translate-x-1/2 bg-white w-4 h-4 rounded-full border border-gray-500"></div>
-                    </div>
-
-                    <div className="mb-12 flex justify-end w-full relative">
-                        <div className="w-1/2 pl-8 text-left">
-                            <h3 className="text-white text-xl font-semibold">Project 2</h3>
-                            <p className="text-gray-300">DETAILS</p>
-                        </div>
-                        <div className="absolute left-1/2 transform -translate-x-1/2 bg-white w-4 h-4 rounded-full border border-gray-500"></div>
-                    </div>
-
-                    <div className="mb-12 flex justify-start w-full relative">
-                        <div className="w-1/2 pr-8 text-right">
-                            <h3 className="text-white text-xl font-semibold">Project 3</h3>
-                            <p className="text-gray-300">DETAILS</p>
-                        </div>
-                        <div className="absolute left-1/2 transform -translate-x-1/2 bg-white w-4 h-4 rounded-full border border-gray-500"></div>
-                    </div>
-                </div>
-            </section>
-
-
-
         </div>
-
-    )
+    );
 }
 
 export default Home;

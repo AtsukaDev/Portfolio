@@ -1,0 +1,14 @@
+[
+    {
+        "title": "AniFlex App",
+        "description": "An anime recommendation app",
+        "tech": [
+            "React Native",
+            "Tailwind",
+            "Node.js",
+            "Mariadb"
+        ],
+        "link": "#",
+        "image": "https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"
+    }
+]
