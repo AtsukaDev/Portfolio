@@ -9,6 +9,78 @@
             "Mariadb"
         ],
         "link": "#",
-        "image": "https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"
+        "image": "./img/aniflex.png",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-3"
+    },
+    {
+        "title": "Deveau's Paintings",
+        "description": "A react website to show all my mother's paintings",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "link": "#",
+        "image": "https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png",
+        "colSpan": "col-span-2",
+        "rowSpan": "row-span-2"
+    },
+    {
+        "title": "Discord Bot",
+        "description": "A discord bot with hundreds of commandes",
+        "tech": [
+            "Node.js",
+            "Discord.js"
+        ],
+        "link": "#",
+        "image": "https://wallpapers.com/images/hd/discord-logo-ii18fxkyw33q703l.jpg",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-1"
+    },
+    {
+        "title": "Gribouille",
+        "description": "A JavaFx paint app",
+        "tech": [
+            "JavaFx"
+        ],
+        "link": "#",
+        "image": "https://i0.wp.com/blog.nashtechglobal.com/wp-content/uploads/2024/01/communityIcon_4v21sx0aiam41.png?fit=256%2C171&ssl=1",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-1"
+    },
+    {
+        "image": "./img/black.png",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-1"
+    },
+    {
+        "title": "GitHub",
+        "link": "#",
+        "image": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-1"
+    },
+    {
+        "image": "./img/black.png",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-2"
+    },
+    {
+        "title": "Facial Recognition",
+        "description": "A little python script to do facial recognition",
+        "tech": [
+            "Python"
+        ],
+        "link": "#",
+        "image": "https://sls.eff.org/files/sls/technology/banner_attachment/file/32/SLS-facial-2023.png",
+        "colSpan": "col-span-2",
+        "rowSpan": "row-span-1"
+    },
+    {
+        "title": "LinkedIn",
+        "link": "#",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png",
+        "colSpan": "col-span-1",
+        "rowSpan": "row-span-1"
     }
 ]

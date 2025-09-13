@@ -2,11 +2,10 @@ import '../App.css';
 
 function ProjectCard({ title, description, tech, link, image }) {
     return (
-        <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
-
-            <img 
-                src={image} 
-                alt={title} 
+        <div className="relative w-full h-full rounded-xl overflow-hidden shadow-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            <img
+                src={image}
+                alt={title}
                 className="w-full h-full object-cover"
             />
 
@@ -20,6 +19,8 @@ function ProjectCard({ title, description, tech, link, image }) {
                 </div>
             </div>
         </div>
+
+
     )
 }
 
