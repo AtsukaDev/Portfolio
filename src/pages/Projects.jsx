@@ -3,11 +3,12 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
     return (
-        <div className="w-full h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-2 lg:grid-rows-4 gap-4">
+        <div className="w-full h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 auto-rows-fr gap-4">
+
             {projects.map((project, index) => (
                 <div
                     key={index}
-                    className={`${project.colSpan || ""} ${project.rowSpan || ""}`}
+                    className={`${project.colSpan || ""} ${project.rowSpan || ""} `}
                 >
                     <ProjectCard
                         title={project.title}
