@@ -3,7 +3,7 @@
     "title": "AniFlex App",
     "description": "An anime recommendation app",
     "tech": ["React Native", "Tailwind", "Node.js", "Mariadb"],
-    "link": "#",
+    "link": "/Projects/Aniflex",
     "image": "./img/aniflex.png",
     "colSpan": "col-span-1 lg:col-span-1",
     "rowSpan": "row-span-1 lg:row-span-3"
