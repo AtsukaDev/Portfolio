@@ -19,8 +19,15 @@ function ProjectCard({ title, description, tech, link, image }) {
             </Link>
         );
     }
+
     return (
-        <div className="relative w-full h-full rounded-xl overflow-hidden shadow-lg transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+        <div
+            className="relative w-full h-full rounded-xl overflow-hidden shadow-lg
+transform transition-all duration-300 ease-out
+hover:-translate-x-2 hover:-translate-y-2 
+hover:shadow-[10px_10px_0px_rgba(255,26,144,0.6)]"
+
+        >
             <Wrapper>
                 <img
                     src={image}
@@ -29,19 +36,21 @@ function ProjectCard({ title, description, tech, link, image }) {
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex flex-col justify-end p-4">
-                    <h3 className="text-white text-xl font-bold">{title}</h3>
-                    <p className="text-gray-200 text-sm">{description}</p>
-                    <div className="flex flex-wrap gap-2 mt-2">
-                        {tech && tech.map((t, idx) => (
-                            <span key={idx} className="bg-white/30 px-2 py-1 rounded-full text-xs text-white">{t}</span>
-                        ))}
-                    </div>
+                    {title && <h3 className="text-white text-xl font-bold">{title}</h3>}
+                    {description && <p className="text-gray-200 text-sm">{description}</p>}
+                    {tech && (
+                        <div className="flex flex-wrap gap-2 mt-2">
+                            {tech.map((t, idx) => (
+                                <span key={idx} className="bg-white/30 px-2 py-1 rounded-full text-xs text-white">
+                                    {t}
+                                </span>
+                            ))}
+                        </div>
+                    )}
                 </div>
             </Wrapper>
         </div>
-
-
-    )
+    );
 }
 
 export default ProjectCard;

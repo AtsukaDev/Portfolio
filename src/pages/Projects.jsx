@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
     return (
-        <div className="w-full h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 auto-rows-fr gap-4">
+        <div className="md:w-full md:h-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:auto-rows-fr gap-4 py-4 px-8">
 
             {projects.map((project, index) => (
                 <div

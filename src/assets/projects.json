@@ -18,13 +18,9 @@
     "rowSpan": "row-span-1 lg:row-span-2"
   },
   {
-    "title": "Discord Bot",
-    "description": "A discord bot with hundreds of commandes",
-    "tech": ["Node.js", "Discord.js"],
-    "link": "#",
-    "image": "https://wallpapers.com/images/hd/discord-logo-ii18fxkyw33q703l.jpg",
-    "colSpan": "hidden col-span-1 lg:flex",
-    "rowSpan": "hidden row-span-1 lg:flex"
+    "image": "./img/black.png",
+    "colSpan": "hidden lg:col-span-1 lg:flex",
+    "rowSpan": "hidden lg:row-span-1 lg:flex"
   },
   {
     "title": "Gribouille",
@@ -36,10 +32,13 @@
     "rowSpan": "row-span-1"
   },
   {
-    "image": "./img/black.png",
-    "colSpan": "hidden lg:col-span-1 lg:flex",
-    "rowSpan": "hidden lg:row-span-1 lg:flex"
+    "title": "Leetcode",
+    "link": "https://leetcode.com/u/atsukadev/",
+    "image": "https://leetcode.com/static/images/LeetCode_Sharing.png",
+    "colSpan": "col-span-1 ",
+    "rowSpan": "row-span-1"
   },
+  
   {
     "title": "GitHub",
     "link": "https://github.com/AtsukaDev",
