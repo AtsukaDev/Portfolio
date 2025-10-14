@@ -22,10 +22,8 @@ function ProjectCard({ title, description, tech, link, image }) {
 
     return (
         <div
-            className="relative w-full h-full rounded-xl overflow-hidden shadow-lg
-transform transition-all duration-300 ease-out
-hover:-translate-x-2 hover:-translate-y-2 
-hover:shadow-[10px_10px_0px_rgba(255,26,144,0.6)]"
+            className="relative w-full h-full rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 ease-out
+                        hover:-translate-x-2 hover:-translate-y-2 hover:shadow-[10px_10px_0px_rgba(57,28,135,0.8)]"
 
         >
             <Wrapper>
