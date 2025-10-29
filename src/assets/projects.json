@@ -27,7 +27,7 @@
     "title": "Gribouille",
     "description": "A JavaFx paint app",
     "tech": ["JavaFx"],
-    "link": "https://github.com/AtsukaDev/gribouille/",
+    "link": "https://github.com/Lukas-bt/gribouille/",
     "image": "https://i0.wp.com/blog.nashtechglobal.com/wp-content/uploads/2024/01/communityIcon_4v21sx0aiam41.png?fit=256%2C171&ssl=1",
     "colSpan": "col-span-1",
     "rowSpan": "row-span-1"
@@ -42,7 +42,7 @@
   
   {
     "title": "GitHub",
-    "link": "https://github.com/AtsukaDev",
+    "link": "https://github.com/Lukas-bt",
     "image": "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_640.png",
     "colSpan": "col-span-1",
     "rowSpan": "row-span-1"
@@ -56,7 +56,7 @@
     "title": "Facial Recognition",
     "description": "A little python script to do facial recognition",
     "tech": ["Python"],
-    "link": "https://github.com/AtsukaDev/ReconnaissanceFaciale",
+    "link": "https://github.com/Lukas-bt/ReconnaissanceFaciale",
     "image": "https://sls.eff.org/files/sls/technology/banner_attachment/file/32/SLS-facial-2023.png",
     "colSpan": "col-span-1 lg:col-span-2",
     "rowSpan": "row-span-1"
