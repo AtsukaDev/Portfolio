@@ -11,8 +11,8 @@
   {
     "title": "Deveau's Paintings",
     "description": "A react website to show all my mother's paintings",
-    "tech": ["React", "Tailwind"],
-    "link": "https://deveau-paintings.netlify.app/",
+    "tech": ["ReactJS", "Tailwind CSS"],
+    "link": "https://github.com/Lukas-bt/MotherPaintings/",
     "image": "https://uploads.sitepoint.com/wp-content/uploads/2017/04/1493235373large_react_apps_A-01.png",
     "colSpan": "col-span-1 lg:col-span-2",
     "rowSpan": "row-span-1 lg:row-span-2"
