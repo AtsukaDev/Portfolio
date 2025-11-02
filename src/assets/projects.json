@@ -18,7 +18,6 @@
     "rowSpan": "row-span-1 lg:row-span-2"
   },
   {
-    "title": "Contact",
     "image": "./img/black.png",
     "colSpan": "hidden lg:col-span-1 lg:flex",
     "rowSpan": "hidden lg:row-span-1 lg:flex"
