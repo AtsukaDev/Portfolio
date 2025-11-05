@@ -12,11 +12,11 @@ export default function Aniflex() {
                 </Link>
             </div>
             <div className="relative">
-                <div className="sticky top-0 h-[110vh] flex flex-col items-center pt-8  bg-gradient-to-b from-green-200 to-blue-200">
-                    <div className="flex justify-center bg-transparent pb-4">
+                <div className="sticky top-0 h-[110vh] flex flex-col items-center pt-4 md:pt-6  bg-gradient-to-b from-green-200 to-blue-200">
+                    <div className="flex justify-center bg-transparent md:pb-4">
                         <h1 className="text-5xl md:text-6xl lilita text-center">Aniflex</h1>
                     </div>
-                    <div className="flex flex-col lg:flex-row items-center justify-center mt-10 mx-2 md:mx-6 lg:mx-16 xl:mx-48 gap-10 lg:gap-32 object-contain">
+                    <div className="flex flex-col lg:flex-row items-center justify-center mt-2 md:mt-10 mx-2 md:mx-6 lg:mx-16 xl:mx-48 gap-5 lg:gap-32 object-contain">
                         <div className="flex justify-center h-[50vh] md:h-[60vh] lg:h-[70vh]">
                             <img
                                 src="../../img/aniflex/home.png"
@@ -36,7 +36,7 @@ export default function Aniflex() {
                         </div>
                     </div>
                 </div>
-                <div className="sticky top-0 h-[110vh] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 to-purple-800 text-white">
+                <div className="sticky top-0 h-[110vh] flex flex-col items-center pt-16 md:pt-28 bg-gradient-to-b from-indigo-800 to-purple-800 text-white">
                     <div className="flex flex-col lg:flex-row items-center justify-center mx-2 md:mx-6 lg:mx-16 xl:mx-48 gap-10 lg:gap-32 object-contain">
                         <div className="flex justify-center h-[50vh] md:h-[60vh] lg:h-[70vh]">
                             <img
@@ -56,7 +56,7 @@ export default function Aniflex() {
                         </div>
                     </div>
                 </div>
-                <div className="sticky top-0 h-[110vh] flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white">
+                <div className="sticky top-0 h-[110vh] flex flex-col items-center pt-16 md:pt-28 bg-gradient-to-b from-purple-800 to-pink-800 text-white">
                     <div className="flex flex-col lg:flex-row items-center justify-center mx-2 md:mx-6 lg:mx-16 xl:mx-48 gap-10 lg:gap-32 object-contain">
                         <div className="flex justify-center h-[50vh] md:h-[60vh] lg:h-[70vh]">
                             <img
